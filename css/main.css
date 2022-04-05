@@ -1,0 +1,54 @@
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: darkcyan;
+}
+
+.content{
+  display: flex;
+  justify-content: space-evenly;
+
+}
+
+
+.list{
+  width: 700px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 10px auto;
+  padding: 0;
+  list-style: none;
+  row-gap: 30px;
+  column-gap: 30px;
+}
+
+.list__item{
+  width: 200px;
+  padding: 20px;
+  background-color: beige;
+}
+
+.list__img{
+  width: 100%;
+
+}
+
+.bookmark-list{
+  width: 400px;
+  padding-top: 20px;
+  background-color: beige;
+  list-style: none;
+}
+
+.bookmark-list>li{
+  margin-bottom: 30px;
+  padding: 10px;
+  background-color: blue;
+  display: flex;
+  justify-content: space-around;
+
+}
+
+
